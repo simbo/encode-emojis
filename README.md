@@ -6,7 +6,8 @@ A javascript library that encodes emojis (only emojis!) to HTML entities.
 
 ## Installation
 
-This library is published to npm registry as `encode-emojis`.
+This library is published to npm registry as
+[`encode-emojis`](https://www.npmjs.com/package/encode-emojis).
 
 You can install it:
 
