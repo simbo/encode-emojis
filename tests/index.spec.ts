@@ -6,7 +6,7 @@ describe('encodeEmojis', () => {
   });
 
   it('should not encode any other HTML characters', () => {
-    expect(encodeEmojis('<strong>Hello!</strong> 👋')).toBe('&#x2764;️');
+    expect(encodeEmojis('<strong>Hello!</strong> 👋')).toBe('<strong>Hello!</strong> &#x1f44b;');
   });
 
   it('should encode emojis with variations', () => {
