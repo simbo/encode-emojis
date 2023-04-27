@@ -39,7 +39,7 @@ jobs:
         id: package
         run: |
           npm pack
-          echo "::set-output name=filename::$(ls *.tgz | grep -m1 tgz)"
+          echo "filename=$(ls *.tgz | grep -m1 tgz)" >> "$GITHUB_OUTPUT"
 
       - name: 🎁 Create GitHub Release
         uses: ncipollo/release-action@v1
