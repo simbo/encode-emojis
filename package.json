@@ -13,7 +13,6 @@
   "bugs": {
     "url": "https://github.com/simbo/encode-emojis/issues"
   },
-  "private": true,
   "engines": {
     "node": ">=16"
   },
