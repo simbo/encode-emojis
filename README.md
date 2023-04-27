@@ -1,6 +1,6 @@
 # Encode Emojis
 
-> A javascript library that encodes emojis (only emojis!) to HTML entities.
+A javascript library that encodes emojis (only emojis!) to HTML entities.
 
 ---
 
