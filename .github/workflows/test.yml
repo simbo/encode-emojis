@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🛎 Checkout
+        uses: actions/checkout@v3
+
+      - name: 🛠️ Setup Node
+        uses: actions/setup-node@v3
+        with:
+          version-file: ./.nvmrc
+
+      - name: 👮‍♂️ Check Formatting
+        run: npm run format
+
+      - name: 👨‍🔬 Run Tests
+        run: npm run test
+
+      - name: 👷‍♂️ Build Library
+        run: npm run build
