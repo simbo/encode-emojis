@@ -1,5 +1,12 @@
 # Encode Emojis
 
+[![npm Package Version](https://img.shields.io/npm/v/encode-emojis?)](https://www.npmjs.com/package/encode-emojis)
+[![License MIT](https://img.shields.io/badge/license-MIT-4cc552)](http://simbo.mit-license.org/)
+[![GitHub Repo](https://img.shields.io/badge/repo-public-87ceeb)](https://github.com/simbo/encode-emojis)
+![Native Typescript Support](https://img.shields.io/npm/types/encode-emojis)
+[![Coveralls Coverage](https://img.shields.io/coveralls/github/simbo/encode-emojis)](https://coveralls.io/github/simbo/encode-emojis)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/simbo/encode-emojis/ci.yml?branch=main)](https://github.com/simbo/encode-emojis/actions/workflows/ci.yml)
+
 A javascript library that encodes emojis (only emojis!) to HTML entities.
 
 ---
