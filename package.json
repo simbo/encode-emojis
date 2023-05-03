@@ -1,6 +1,6 @@
 {
   "name": "encode-emojis",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A javascript library that encodes emojis (only emojis!) to HTML entities.",
   "author": "Simon Lepel <simbo@simbo.de> (https://simbo.de/)",
   "license": "MIT",
